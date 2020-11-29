@@ -29,7 +29,7 @@ class Nav extends Component{
     render(){
         return(
             <nav>
-                <Container>
+                <Container fluid>
                     <Navbar className="bg-light justify-content-between" md={{ span: 4, offset: 8 }}>
                         <Form inline onSubmit={this.handleSubmit} >
                             <FormControl type="text" value={this.state.search} onChange={this.handleChange} placeholder="Search" className=" mr-sm-2" />

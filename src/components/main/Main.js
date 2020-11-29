@@ -47,7 +47,7 @@ async componentDidUpdate(prevProps, prevState) {
         if(!this.state.justLoad)tableBody = <tr><td colSpan="4">UPs.. no results for your search</td></tr>;
        }                               
         return(
-            <Container>
+            <Container fluid>
                 <Table striped bordered hover>
                     <thead>
                         <tr>

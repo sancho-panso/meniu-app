@@ -23,7 +23,7 @@ class App extends React.Component {
 
     render(){
         return(
-            <Container> 
+            <Container fluid> 
                 <div className="app">
                     <Header/>
                     <Nav onSearchInput={this.handleSearchChange}/>
